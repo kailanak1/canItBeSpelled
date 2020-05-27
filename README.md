@@ -8,13 +8,13 @@ In other words, can we take characters away from string 2 to spell string 1?
 ## Test Cases
 
 ```Test 1:
-input: ('alexe', 'aleexe')
+input: ("alexe", "aleexe")
 output: true
 ```
 
 
 ```Test 2: 
-input: ('laiden', 'laiden')
+input: ("laiden", "laiden")
 output: false 
 ```
 
