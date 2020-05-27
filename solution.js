@@ -1,5 +1,5 @@
 function canItBeSpelled(str1, str2){
-
+    
     if(str1.length >= str2.length){
       return false
     }
@@ -31,13 +31,13 @@ function canItBeSpelled(str1, str2){
         arr2.push(subArray)
     }
     
-      for(let i=0; i < arr1.length; i++){
+      for(let i = 0; i < arr1.length; i++){
         if(arr1[i].length < arr2[i].length){
           arr2[i].pop()
         }
       }
     
-      for(let i =0; i < arr2.length; i++){
+      for(let i = 0; i < arr2.length; i++){
         if(!arr2[i].includes(arr1[i][0])){
           arr2.splice(i,1)
         }
@@ -47,6 +47,6 @@ function canItBeSpelled(str1, str2){
       return true
     } else {
       return false 
-    }
-      
+    }  
+    
 }
