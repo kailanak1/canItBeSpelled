@@ -25,7 +25,7 @@ output: false
 
 ```Test 4: 
 input: (" ", "hi")
-output: true 
+output: false 
 ```
 
 ```Test 5: 
